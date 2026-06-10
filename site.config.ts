@@ -1,21 +1,22 @@
 import siteConfig from "./src/utils/config";
 
 const config = siteConfig({
-	title: "ThoughtLite",
-	prologue: "If you need a website\nthat loads fast and has great SEO, then Astro is for you.",
+	title: "zhiq",
+	prologue: "认识世界",
 	author: {
-		name: "Your Name",
-		email: "hi@your.mail",
-		link: "https://your.website"
+		name: "zhiq",
+		email: "hi@zhiq.net",
+		link: "https://zhiq.net"
 	},
-	description: "A modern Astro theme focused on content creation.",
+	description: "zhiq 的个人博客网站",
 	copyright: {
 		type: "CC BY-NC-ND 4.0",
-		year: "2025"
+		year: "2026"
 	},
 	i18n: {
-		locales: ["en", "zh-cn", "ja"],
-		defaultLocale: "en"
+		// locales: ["zh-cn", "en", "ja"],
+		locales: ["zh-cn"], // 单语言模式
+		defaultLocale: "zh-cn"
 	},
 	pagination: {
 		note: 15,
